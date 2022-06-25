@@ -37,6 +37,8 @@ int main () {
                 push(sinh(pop()));
             else if (!strcmp(s, "cosh"))
                 push(cosh(pop()));
+            else if (!strcmp(s, "tanh"))
+                push(cosh(pop()));
             else if (!strcmp(s, "exp"))
                 push(exp(pop()));
             else if (!strcmp(s, "log"))

@@ -1,4 +1,5 @@
 #define NUMBER '0'
+#define FUNCTION '1'
 void push(double);
 double pop(void);
 void clearStack(void);
